@@ -40,7 +40,7 @@ class TwitterSearch {
         let self = this;
         $.ajax({
             method: "GET",
-            url: "http://172.31.23.173:3333/tweetList",
+            url: "http://localhost:3333/tweetList",
             data: { key: keyWord, limit: 25 }
         })
             .done(function( result ) {

@@ -10,7 +10,7 @@ class apiActions {
         const app = this.app;
         var collection = 'tweets',
             dbName = 'twitter-assignment',
-            url = 'mongodb://172.31.23.173:27017';
+            url = 'mongodb://localhost:27017';
         app.get('/tweetList',(req,res)=> {
             console.log('removeDocument');
 

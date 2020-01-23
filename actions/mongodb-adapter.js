@@ -4,7 +4,7 @@ const assert = require('assert');
 
 
 // Connection URL
-const url = 'mongodb://172.31.23.173:27017';
+const url = 'mongodb://localhost:27017';
 // Database Name
 const dbName = 'twitter-assignment';
 
