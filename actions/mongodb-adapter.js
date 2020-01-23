@@ -117,6 +117,7 @@ const removeDocument = function(db,data,dbName, callback) {
 
 
 //example
+/*
 const collection='documents'
 
 insert(dbName,url,
@@ -152,3 +153,4 @@ find(dbName,url,
 
     })
 
+*/
