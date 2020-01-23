@@ -1,0 +1,29 @@
+
+<script src="js/twitter.js"></script>
+
+<div class='twitter-container'>
+    <div class="row m-0">
+        <div class="col p-0">
+        </div>
+        <div class="col-6 p-0">
+            <form class="form-inline my-2 my-lg-0" class="twitter-container__search twitter-search" id="searchTweet">
+                <input class="form-control mr-sm-2 twitter-search__search-box" type="search" placeholder="Search for Tweets" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0 twitter-search__search-btn" type="submit">Search</button>
+            </form>
+            <div class="tweet-list">
+
+            </div>
+        </div>
+        <div class="col p-0">
+        </div>
+    </div>
+</div>
+
+
+<script>
+        $(document).ready(function () {
+
+            const toDo = new TwitterSearch('searchTweet');
+    })
+
+</script>

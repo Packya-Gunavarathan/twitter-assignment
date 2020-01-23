@@ -1,0 +1,71 @@
+
+// Your Variables
+@import "variables";
+
+// Bootstrap and its default variables
+@import "../lib/bootstrap/scss/bootstrap.scss";
+/*CSS for body: Starts*/
+
+
+%md-avatar {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+body{
+  background-color: rgb(21, 32, 43);
+  display: flex;
+  justify-content: center;
+
+}
+
+/*CSS for body: End*/
+
+/*twitter-container : Starts*/
+.twitter-container{
+  margin-top: 20px;
+
+}
+
+/*twitter-container : End*/
+
+/*twitter-header : Starts*/
+
+.twitter-header{
+
+  border-bottom: 1px solid rgb(37, 51, 65);
+
+}
+
+
+/*twitter-header : End*/
+
+/*twitter-search : Starts*/
+
+
+.twitter-search{
+  &__search-box {
+    background-color: #1b2733 !important;
+    border: 1px solid #1b2733;
+    width: 87% !important;
+    color: #fff !important;
+  }
+}
+
+/*twitter-search : End*/
+
+.twitter-profile{
+  &__notification{
+    color: #fff;
+    font-size: 28px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  &__avatar{
+    @extend %md-avatar;
+
+  }
+}
