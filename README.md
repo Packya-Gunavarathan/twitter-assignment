@@ -15,3 +15,5 @@
     
    * To watch SASS Files
     `$ npm run watch:sass`
+    
+    * Can do this via Gulp too.
